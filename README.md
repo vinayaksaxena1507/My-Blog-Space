@@ -1,17 +1,17 @@
 ## BLOG with Next.js 13
 
-練習專案，來源 : [Let’s build a BLOG with Next.js 13 (Sanity v3, TypeScript, Tailwind CSS, Auth, CMS, Preview Mode)](https://www.youtube.com/live/x3fCEPFgUSM?feature=share)。
+This project is a practice exercise based on the tutorial : [Let’s build a BLOG with Next.js 13 (Sanity v3, TypeScript, Tailwind CSS, Auth, CMS, Preview Mode)](https://www.youtube.com/live/x3fCEPFgUSM?feature=share)。
 
-## 功能
+## Features
 
-- 瀏覽文章
-- ISR 更新文章
-- Sanity 後台發布文章
-- Sanity 後台即時預覽文章
+- Browse articles
+- Incremental Static Regeneration (ISR) for updating articles
+- Publish articles using Sanity CMS
+- Real-time preview of articles in Sanity CMS
 
-## 安裝
+## Installation
 
-### 安裝套件
+### Install Dependencies
 
 ```bash
 pnpm install
@@ -19,7 +19,7 @@ pnpm install
 
 ### 環境變數說明
 
-請參考 [.env.example]() 檔案。
+Please refer to the [.env.example]() file for the required environment variables.。
 
 ```env
 NEXT_PUBLIC_SANITY_PROJECT_ID= # your sanity project id
@@ -27,7 +27,7 @@ NEXT_PUBLIC_SANITY_DATASET= # your sanity project dataset
 NEXT_PUBLIC_SANITY_API_VERSION= # your sanity api version
 ```
 
-### 運行專案
+### Run the Project
 
 #### Development
 ```bash
@@ -43,7 +43,7 @@ pnpm run start
 ```
 
 
-## 專案技術
+## Technologies Used
 
 - Next.js 13
 - React
